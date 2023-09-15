@@ -1,0 +1,1673 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+/* ---------- Barra-de-Navegacao ---------- */
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FA7702;
+    border-radius: 10%;
+}
+
+/* ----- Fonts ------ */
+@font-face {
+    font-family: 'conneqt';
+    src: url(../fonts/conneqtcont/ConneqtRegular.ttf);
+}
+
+@font-face {
+    font-family: 'courgette';
+    src: url(../fonts/Michland\ Script.otf);
+}
+
+/* -------- Main ---------- */
+body {
+    background-image: url(../img/fundo.png);
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 100px 0;
+}
+
+p,
+li {
+    color: #ffff;
+    font-size: 14px;
+}
+
+/* Barra de Navegacao */
+
+.navbar button {
+    border: none;
+}
+
+header,
+.navbar {
+    background-image: url(../img/barra-atual-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-collapse {
+    transition: all .5s;
+}
+
+#nav-container {
+    font-family: 'conneqt';
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 175px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0 50px;
+    color: #ffff;
+}
+
+.navbar-brand:hover {
+    color: #FA7702;
+}
+
+#navbar-links a {
+    color: #ffff;
+}
+
+#navbar-links a:hover {
+    color: #FA7702;
+    transition: all .3s linear;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 1.5rem 1rem;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-right: 15%;
+}
+
+/* Slider */
+
+.carousel-item {
+    transition: all .25s linear;
+}
+
+#about-area {
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+    height: auto;
+}
+
+/* O que oferecemos */
+
+.apply-content {
+    font-family: 'conneqt';
+    border-left: 5px solid #FA7702;
+    margin-bottom: 80px;
+    margin-left: 10px;
+}
+
+#apply-area {
+    height: 100vh;
+}
+
+#apply-area .container-fluid,
+#apply-area .row {
+    padding: 10px 20px;
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 100px;
+}
+
+#patern-img h3,
+#patern-img p {
+    color: #ffff;
+    margin-top: 6%;
+}
+
+#patern-img h3 {
+    font-size: 38px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 110px;
+}
+
+#patern-img p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -10px;
+    margin-left: 30px;
+}
+
+/* Trabalhos e Projetos */
+
+#project-area {
+    height: 100vh;
+}
+
+#project-area .container-fluid,
+#project-area .row {
+    padding: 30px 10px;
+    height: 100%;
+}
+
+#project-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#pattern-area h3,
+#pattern-area p {
+    color: #ffff;
+    margin-top: 5%;
+}
+
+.project-title{
+    border-left: 7px solid #FA7702;
+}
+
+#pattern-area h3 {
+    font-family: 'conneqt';
+    font-size: 60px;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-bottom: 15px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+/* Eventos */
+
+#news-area {
+    height: 140vh;
+}
+
+#news-area .container-fluid,
+#news-area .row {
+    padding: -110px 30px;
+    height: 100%;
+}
+
+#news-area .apply-box {
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+}
+
+.apply-eventos {
+    font-family: 'conneqt';
+    border-left: 7px solid #FA7702;
+    margin-left: 45%;
+}
+
+#pattern-img h3,
+#pattern-img p {
+    color: #ffff;
+    margin-top: -53%;
+    margin-left: 20%;
+}
+
+#pattern-img h3 {
+    font-size: 60px;
+    text-align: center;
+    color: #ffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#pattern-img p {
+    font-size: 23px;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: -10px;
+    margin-left: 5%;
+    margin-right: 40%;
+}
+
+#news-img {
+    margin-left: 0%;
+    margin-top: -80px;
+    cursor: default;
+}
+
+#evento-area {
+    display: flex;
+    position: relative;
+}
+
+.gallery img {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+/* Contato */
+.social{
+    position: relative;
+    top: 185px;
+    left: 60px;
+    max-width: 600px;
+}
+
+#list li {
+    display: inline-block;
+    list-style: none;
+    height: 50px;
+    margin-left: 90px;
+    transition: all 0.2s;
+}
+
+#list li:hover {
+    transform: translateY(-10%);
+}
+
+#face-icon{
+    width: 55px;
+    height: 55px;
+}
+
+#insta-icon{
+    width: 65px;
+    height: 50px;
+}
+
+#what-icon{
+    width: 70px;
+    height: 70px;
+}
+
+#contato-area {
+    height: 125vh;
+    color: #ffff;
+}
+
+#contato-img {
+    margin-top: -150px;
+}
+
+#contato-area .container-fluid,
+#contato-area .row {
+    font-family: 'conneqt';
+    padding: 110px 40px 110px 80px;
+    height: 100%;
+}
+
+
+#contact-form .mb-2 input,
+#contact-form textarea {
+    font-family: sans-serif;
+    width: 350px;
+    color: #ffff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(134, 140, 140);
+    border-radius: 0;
+    outline: none;
+}
+
+#contact-form .mb-2 label {
+    color: #ffff;
+}
+
+#contact-form .mb-2 input:focus,
+#contact-form .mb-2 textarea:focus {
+    font-family: sans-serif;
+    color: #ffff;
+    text-transform: none;
+    box-shadow: none;
+}
+
+#contact-form .main-btn {
+    width: 105px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #ffff;
+    border: 2px solid rgb(152, 158, 158);
+    border-radius: 30px;
+    margin-top: 15px;
+    padding: 4px 10px 10px 10px;
+    transition: all .2s ease;
+    position: absolute;
+    left: 22%;
+}
+
+#contact-form .main-btn:hover {
+    border-color: #FA7702;
+}
+
+#copy-area .container {
+    font-family: 'conneqt';
+    padding: 20px 0;
+    height: 50px;
+}
+
+#copy-area #copy-box {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#copy-area .container p {
+    color: rgb(152, 158, 158);
+    font-size: 12px;
+}
+
+form :hover {
+    color: #FA7702;
+}
+
+
+/* Responsive */
+
+/* Responsive-WideScreen */
+
+
+/* Responsive-Laptop-lg */
+@media (max-width: 1441px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 13%;
+    }
+
+    #logo {
+        margin-left: -10px;
+        width: 155px;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 20px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+    #apply-area {
+        height: 80vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    #patern-img h3 {
+        font-size: 36px;
+    }
+
+    #patern-img p {
+        font-size: 15px;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 80vh;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 10px 40px 10px;
+        height: 100%;
+    }
+
+    #pattern-area h3 {
+        font-size: 50px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 100vh;
+        margin-top: 0px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    .apply-eventos {
+        font-family: 'conneqt';
+        border-left: 7px solid #FA7702;
+        margin-left: 45%;
+    }
+    
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -58%;
+        margin-left: 20%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 55px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    #pattern-img p {
+        font-size: 20px;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: -10px;
+        margin-left: 5%;
+        margin-right: 40%;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 155px;
+        left: 20px;
+        max-width: 600px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        height: 50px;
+        margin-left: 90px;
+    }
+    
+    #face-icon{
+        width: 55px;
+        height: 55px;
+    }
+    
+    #insta-icon{
+        width: 65px;
+        height: 50px;
+    }
+    
+    #what-icon{
+        width: 70px;
+        height: 70px;
+    }
+
+    #contato-area {
+        height: 110vh;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 30px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 300px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 14px;
+        width: 85px;
+        height: 40px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 15px;
+        padding: 4px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 19.6%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 6%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 10px;
+    }
+
+}
+
+/* Responsive-Laptop */
+
+@media (max-width: 1025px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 3%;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 50px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+    #apply-area {
+        height: 85vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 30px 10px 30px 10px;
+        height: 100%;
+    }
+
+    #patern-img h3 {
+        font-size: 30px;
+        margin-left: 70px;
+        width: 200px;
+    }
+
+    #patern-img p {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 80vh;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 10px 40px 10px;
+        height: 100%;
+    }
+
+    #pattern-area h3 {
+        font-size: 40px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 90vh;
+        margin-top: 0px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -60%;
+        margin-left: 20%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 45px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    #pattern-img p {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: -10px;
+        margin-left: 5%;
+        margin-right: 40%;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 10px;
+        left: -50px;
+        max-width: 600px;
+        height: 10px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 90px;
+    }
+    
+    #face-icon{
+        width: 55px;
+        height: 55px;
+    }
+    
+    #insta-icon{
+        width: 65px;
+        height: 50px;
+    }
+    
+    #what-icon{
+        width: 70px;
+        height: 70px;
+    }
+
+    #contato-area {
+        height: 110vh;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 30px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 250px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 14px;
+        width: 85px;
+        height: 40px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 15px;
+        padding: 4px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 22.6%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 6%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 10px;
+    }
+
+}
+
+/* Responsive-Tablet */
+
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 3%;
+    }
+
+    #logo {
+        width: 125px;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 70px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+    #apply-area {
+        height: 70vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 10px 10px 30px 10px;
+        height: 100%;
+    }
+
+    #patern-img h3 {
+        font-size: 33px;
+    }
+
+    #patern-img p {
+        font-size: 13px;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 70vh;
+        margin-top: 140px;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 10px 40px 10px;
+        height: 100%;
+    }
+
+    #pattern-area h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 67vh;
+        margin-top: 30px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -65%;
+        margin-left: 25%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 35px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    #pattern-img p {
+        font-size: 11px;
+        text-align: left;
+        margin-top: 5%;
+        margin-bottom: -50px;
+        margin-left: 7%;
+        margin-right: 35%;
+    }
+
+    #evento-area{
+        margin-bottom: -110px;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 0px;
+        left: -80px;
+        max-width: 600px;
+        height: 10px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 90px;
+    }
+    
+    #face-icon{
+        width: 55px;
+        height: 55px;
+    }
+    
+    #insta-icon{
+        width: 65px;
+        height: 50px;
+    }
+    
+    #what-icon{
+        width: 70px;
+        height: 70px;
+    }
+
+    #contato-area {
+        height: 115vh;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 15px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 225px;
+    }
+
+    #contact-form .mb-2 label {
+        font-size: 14px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 10px;
+        width: 75px;
+        height: 30px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 10px;
+        padding: 4px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 24.6%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 7%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 8px;
+    }
+
+}
+
+/* Responsivel-mobile-lg */
+
+@media (max-width: 426px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 3%;
+    }
+
+    #logo {
+        margin-left: -30px;
+        width: 125px;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 70px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+    #apply-area {
+        height: 120vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 0px 10px 20px 10px;
+        height: 100%;
+    }
+
+    #patern-img h3 {
+        font-size: 27px;
+        width: 200px;
+        margin-left: 0px;
+    }
+
+    #patern-img p {
+        font-size: 9px;
+        width: 150px;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 95vh;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 10px 40px 10px;
+        height: 100%;
+    }
+
+    #pattern-area h3 {
+        font-size: 30px;
+        margin-bottom: 11px;
+        margin-left: 50px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 37vh;
+        margin-top: 40px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    .apply-eventos {
+        border-left: 6px solid #FA7702;
+    }
+
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -75%;
+        margin-left: 35%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    #pattern-img p {
+        font-size: 8px;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 150px;
+        margin-left: 7%;
+        margin-right: 10%;
+    }
+
+    #evento-area{
+        margin-bottom: -10px;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 40px;
+        left: -60px;
+        max-width: 700px;
+        height: 10px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 50px;
+        padding-left: -20px;
+    }
+    
+    #face-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #insta-icon{
+        width: 60px;
+        height: 45px;
+    }
+    
+    #what-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+
+    #contato-area {
+        height: 165vh;
+        margin-top: -150px;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 15px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 225px;
+    }
+
+    #contact-form .mb-2 label {
+        font-size: 14px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 11px;
+        width: 80px;
+        height: 35px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 15px;
+        padding: 6px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 42%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 37%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 6px;
+    }
+
+    #contato-img-2 {
+        margin-top: 50px;
+    }
+
+    #contato-img {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 392px) {
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+    }
+    
+    #face-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #insta-icon{
+        width: 60px;
+        height: 45px;
+    }
+    
+    #what-icon{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+
+/* Responsivel-mobile-md */
+@media (max-width: 376px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 3%;
+    }
+
+    #logo {
+        margin-left: -30px;
+        width: 95px;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 70px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+
+
+    .apply-content {
+        border-left: 5px solid #FA7702;
+        margin-bottom: 80px;
+        margin-left: 10px;
+    }
+
+    #apply-area .apply-box {
+        text-align: center;
+        padding: 70px 55px;
+    }
+
+    #patern-img h3,
+    #patern-img p {
+        color: #ffff;
+        margin-top: 6%;
+    }
+
+    #patern-img h3 {
+        font-size: 27px;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+        margin-left: 11px;
+        width: 200px;
+    }
+
+    #patern-img p {
+        font-size: 9px;
+        text-align: left;
+        margin-bottom: -10px;
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    #apply-area {
+        height: 100vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 0px 10px 20px 10px;
+        height: 100%;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 100vh;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 10px 0px 10px;
+        height: 100%;
+    }
+
+    #pattern-area h3 {
+        font-size: 25px;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top: 5%;
+    }
+
+    #pattern-area p {
+        margin-bottom: 50px;
+        margin-top: 70px;
+        font-size: 9px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 36vh;
+        margin-top: 50px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    .apply-eventos {
+        border-left: 5px solid #FA7702;
+    }
+
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -70%;
+        margin-left: 35%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    
+    #pattern-img p {
+        font-size: 7.5px;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 150px;
+        margin-left: 10%;
+        margin-right: -10%;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 50px;
+        left: -40px;
+        max-width: 700px;
+        height: 10px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 35px;
+    }
+    
+    #face-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #insta-icon{
+        width: 60px;
+        height: 45px;
+    }
+    
+    #what-icon{
+        width: 65px;
+        height: 65px;
+    }
+
+
+    #contato-area {
+        height: 150vh;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 15px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 225px;
+    }
+
+    #contact-form .mb-2 label {
+        font-size: 14px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 11px;
+        width: 80px;
+        height: 35px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 15px;
+        padding: 6px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 48%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 62%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 6px;
+    }
+
+    #contato-img {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 346px) {
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 30px;
+    }
+    
+    #face-icon{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #insta-icon{
+        width: 60px;
+        height: 45px;
+    }
+    
+    #what-icon{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    /* Navbar */
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 1.3rem 1rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 3%;
+    }
+
+    #logo {
+        margin-left: -30px;
+        width: 95px;
+    }
+
+    /* Slider */
+    .carousel-item {
+        position: relative;
+        top: 60px;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+    /* O que oferecemos */
+    #apply-area {
+        height: 105vh;
+    }
+
+    #apply-area .container-fluid,
+    #apply-area .row {
+        padding: 0px 10px 20px 10px;
+        height: 100%;
+    }
+
+    #apply-area .apply-box {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    #patern-img h3 {
+        font-size: 27px;
+        margin-bottom: 80px;
+        margin-left: 27px;
+    }
+
+    #patern-img p {
+        font-size: 9px;
+        width: 230px;
+    }
+
+    /* Trabalhos e Projetos */
+    #project-area {
+        height: 85vh;
+    }
+
+    #project-area img {
+        height: auto;
+    }
+
+    #project-area .container-fluid,
+    #project-area .row {
+        padding: 0px 0px 10px 0px;
+        height: 100%;
+    }
+
+    #project-area .apply-box {
+        text-align: center;
+        padding: 70px 0px -10px;
+    }
+
+    #pattern-area h3 {
+        font-size: 22px;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-top: 5%;
+    }
+
+    #pattern-area p {
+        margin-bottom: 50px;
+        margin-top: 70px;
+        font-size: 9px;
+    }
+
+    /* Eventos */
+    #news-area {
+        height: 45vh;
+        margin-top: 50px;
+    }
+
+    #news-area .container-fluid,
+    #news-area .row {
+        padding: 0px 10px 30px 10px;
+        height: 100%;
+    }
+
+    .apply-eventos {
+        border-left: 5px solid #FA7702;
+    }
+
+    #pattern-img h3,
+    #pattern-img p {
+        color: #ffff;
+        margin-top: -65%;
+        margin-left: 40%;
+    }
+    
+    #pattern-img h3 {
+        font-size: 20px;
+        text-align: center;
+        color: #ffff;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+    
+    #pattern-img p {
+        font-size: 7px;
+        text-align: left;
+        margin-top: 10%;
+        margin-bottom: 150px;
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+
+    /* Contato */
+    .social{
+        position: relative;
+        top: 70px;
+        left: -25px;
+        max-width: 600px;
+        height: 10px;
+    }
+    
+    #list li {
+        display: inline-block;
+        list-style: none;
+        margin-left: 25px;
+    }
+    
+    #face-icon{
+        width: 47px;
+        height: 47px;
+    }
+    
+    #insta-icon{
+        width: 57px;
+        height: 42px;
+    }
+    
+    #what-icon{
+        width: 62px;
+        height: 62px;
+    }
+
+
+    #contato-area {
+        height: 145vh;
+        color: #ffff;
+    }
+
+    #contato-area .container-fluid,
+    #contato-area .row {
+        padding: 110px 15px;
+        height: 100%;
+    }
+
+    #contact-form .mb-2 input,
+    #contact-form textarea {
+        width: 225px;
+    }
+
+    #contact-form .mb-2 label {
+        font-size: 14px;
+    }
+
+    #contact-form .main-btn {
+        font-size: 11px;
+        width: 80px;
+        height: 35px;
+        text-transform: uppercase;
+        background-color: transparent;
+        color: #ffff;
+        border: 2px solid rgb(152, 158, 158);
+        border-radius: 30px;
+        margin-top: 15px;
+        padding: 6px 10px 10px 10px;
+        transition: all .2s ease;
+        position: absolute;
+        left: 56%;
+    }
+
+    #contact-form .main-btn:hover {
+        border-color: #FA7702;
+    }
+
+    #copy-area .container {
+        padding: 70px 0;
+        height: 60px;
+    }
+
+    #copy-area #copy-box {
+        margin-top: 100%;
+    }
+
+    #copy-area .container p {
+        color: rgb(152, 158, 158);
+        font-size: 6px;
+    }
+
+    #contato-img-2 {
+        margin-top: 70px;
+    }
+
+    #contato-img {
+        margin-top: 80px;
+    }
+
+}
